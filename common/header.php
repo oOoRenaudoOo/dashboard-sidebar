@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ************* CSS **************** -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- **********Boxicons CSS ************** -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
         <header>
            <div class="image-text">
                <span class="image">
-                 <img src="logo.png" alt="logo">  
+                 <img src="img/logo.png" alt="logo">  
                </span>
 
 
@@ -42,39 +42,15 @@
                 </li>
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="index.php">
                             <i class="bx bx-home-alt icon" ></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="?mod=ajouter">
                             <i class="bx bx-bar-chart-alt-2 icon" ></i>
-                            <span class="text nav-text">Revenue</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-bell icon" ></i>
-                            <span class="text nav-text">Notifications</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-pie-chart-alt icon" ></i>
-                            <span class="text nav-text">Analytics</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-heart icon" ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-wallet icon" ></i>
-                            <span class="text nav-text">Wallets</span>
+                            <span class="text nav-text">Ajouter</span>
                         </a>
                     </li>
                 </ul> 
@@ -103,14 +79,3 @@
             </div>
         </div>
     </nav>
-
-    <section class="home">
-        <div class="text">Dasboard</div>
-    </section>
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
-

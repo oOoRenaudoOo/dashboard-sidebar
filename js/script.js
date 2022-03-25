@@ -16,7 +16,7 @@ searchBtn.addEventListener("click", () => {
 
     modeSwitch.addEventListener("click", (e) => {
 
-        console.log("event",e); alert("helloworld")
+
         body.classList.toggle("dark");
 
         if (body.classList.contains("dark")) {

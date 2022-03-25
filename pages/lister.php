@@ -39,7 +39,7 @@
                 <a href="index.php?mod=modifier&id=<?php echo $rowPlante['id']  ?>"><i class='bx bxs-edit sizeIconXL'></i></a>
             </td>
             <td>
-                <a href="editer.php?id=<?php echo $rowPlante['id']  ?>">
+                <a href="index.php?mod=supprimer&id=<?php echo $rowPlante['id']  ?>">
                 <i class='bx bx-trash sizeIconXL' ></i></a>
             </td>
             

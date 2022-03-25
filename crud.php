@@ -14,11 +14,14 @@ if (isset($_GET["action"])){
 
         break;
 
-
-
         case "supprimer":
             $maRequete = "DELETE FROM plantes WHERE id = ".$_GET["id"];
            
+
+        case "modifier":
+         /*   $maRequete = "UPDATE `plantes` SET `description` = '$_POST["description"]', `prix` = '$_POST["prix"]' WHERE `plantes`.`id` = $_POST["id"]";
+
+         */
 
         break;        
     }
